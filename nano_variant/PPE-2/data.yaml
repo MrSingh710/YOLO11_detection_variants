@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['glasses', 'gloves', 'helmet', 'mask', 'safety-shoes', 'vest']
+
+roboflow:
+  workspace: ardi-csjyk
+  project: ppe-hfjoc
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/ardi-csjyk/ppe-hfjoc/dataset/2
